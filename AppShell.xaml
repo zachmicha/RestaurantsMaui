@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Restaurants.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Restaurants"
+    xmlns:views="clr-namespace:Restaurants.MVVM.Views"
+    Shell.FlyoutBehavior="Flyout"
+    Title="Restaurants">
+
+    <FlyoutItem Title="Main Page">
+        <FlyoutItem.Icon>
+            <FileImageSource File="home.png" />
+        </FlyoutItem.Icon>
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate views:MainPage}"/>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="About"
+                >
+        <FlyoutItem.Icon>
+            <FileImageSource File="bulb.png" />
+        </FlyoutItem.Icon>
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate views:AboutPage}"/>
+        </Tab>
+    </FlyoutItem>
+</Shell>
