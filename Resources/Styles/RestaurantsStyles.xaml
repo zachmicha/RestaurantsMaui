@@ -4,20 +4,26 @@
     <!-- Color palette based on the uploaded image -->
     <Color x:Key="PrimaryColor">#FF4500</Color>
     <!-- Neon Orange from the text -->
-    <Color x:Key="SecondaryColor">#FFD700</Color>
+    <Color x:Key="SecondaryColor">#CE783F</Color>
     <!-- Bright Yellow from the egg -->
     <Color x:Key="AccentColor">#32CD32</Color>
     <!-- Green from the vegetables -->
-    <Color x:Key="BackgroundColor">#2E2E2E</Color>
+    <Color x:Key="BackgroundColor">#2F2928</Color>
+    <Color x:Key="BackgroundColor2">#393331</Color>
     <!-- Dark background color -->
-    <Color x:Key="HighlightColor">#8B0000</Color>
+    <Color x:Key="Font2">#484240</Color>
+    <Color x:Key="Font3">#5E5754</Color>
+    <Color x:Key="Accent1">#994518</Color>
+    <Color x:Key="Accent2">#2A2423</Color>
     <!-- Deep red from the meat -->
 
     <!-- Defining styles for common UI elements -->
     <Style TargetType="ContentPage">
         <Setter Property="BackgroundColor" Value="{StaticResource BackgroundColor}" />
     </Style>
-
+    <Style TargetType="FlyoutPage">
+        <Setter Property="BackgroundColor" Value="{StaticResource BackgroundColor}" />
+    </Style>
     <Style TargetType="Label">
         <Setter Property="TextColor" Value="{StaticResource PrimaryColor}" />
     </Style>

@@ -25,4 +25,13 @@
             <ShellContent ContentTemplate="{DataTemplate views:AboutPage}"/>
         </Tab>
     </FlyoutItem>
+    <!--<FlyoutItem Title="Detaails"
+             >
+        <FlyoutItem.Icon>
+            <FileImageSource File="bulb.png" />
+        </FlyoutItem.Icon>
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate views:RestaurantDetailsView}"/>
+        </Tab>
+    </FlyoutItem>-->
 </Shell>

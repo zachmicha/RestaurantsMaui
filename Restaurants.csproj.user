@@ -14,6 +14,9 @@
     <MauiXaml Update="MVVM\Views\AboutPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="MVVM\Views\RestaurantDetailsView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Resources\Styles\RestaurantsStyles.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

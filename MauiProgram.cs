@@ -13,6 +13,8 @@ namespace Restaurants
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("outward-block.ttf", "outward");
+                    fonts.AddFont("NevisBold.ttf", "nevis");
                 });
 
 #if DEBUG

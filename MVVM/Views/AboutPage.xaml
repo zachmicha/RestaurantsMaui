@@ -7,5 +7,7 @@
             Text="About this project:"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        <Label Text="Font made by:"/>
+        <Label Text="Outward by Raoul Audouin. Distributed by velvetyne.fr."/>
     </VerticalStackLayout>
 </ContentPage>

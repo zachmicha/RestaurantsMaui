@@ -7,10 +7,6 @@ using System.Threading.Tasks;
 namespace Restaurants.MVVM.Models
 {
 
-    //public class Rootobject
-    //{
-    //    public Foods[] Property1 { get; set; }
-    //}
 
     public class Foods
     {

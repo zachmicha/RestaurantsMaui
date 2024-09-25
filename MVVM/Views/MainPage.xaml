@@ -18,18 +18,42 @@ SemanticProperties.Description="dot net bot in a race car number eight" />
             <Label x:Name="lblControl" Text="aiujhsgdhjkashjkdaskjhadhjkashdkjasshdoja" FontSize="40" TextColor="{StaticResource PrimaryColor}" Padding="15,15"/>
             <Button Text="Retrieve" Command="{Binding RetrieveAllRestaurants}"/>
             
-            <CollectionView VerticalOptions="FillAndExpand" EmptyView="No data avilable" ItemsSource="{Binding RestaurantsList}">
+            <CollectionView VerticalOptions="FillAndExpand" EmptyView="No data avilable"
+                            ItemsSource="{Binding RestaurantsList}"
+                            SelectionMode="Single" SelectionChanged="OnSelectionChanged">
             
                 <CollectionView.ItemTemplate>
+                    
                     <DataTemplate >
-                        <Frame Padding="10">
-                            <VerticalStackLayout Padding="25" Margin="10">
-                                                           
-                            <Label Text="{Binding name}" FontSize="20" TextColor="{StaticResource PrimaryColor}"/>
-                                <Label Text="{Binding Location}" FontSize="14" TextColor="{StaticResource AccentColor}"/>
-                           
-                        </VerticalStackLayout>
-                        </Frame>
+                        <Grid>                            
+                        <Border Padding="20" Margin="15" Stroke="Transparent" StrokeThickness="0"
+                                StrokeShape="RoundRectangle 10" BackgroundColor="{StaticResource Accent2}">
+                            <Border.Shadow>
+                                <Shadow Brush="Black" Offset="2,10" Opacity="0.5" Radius="5"/>
+                            </Border.Shadow>
+                                <Grid ColumnDefinitions=".3*,.7*">
+                                    <Border StrokeShape="RoundRectangle 50" WidthRequest="100" 
+                                        HeightRequest="100"  StrokeThickness="0">
+                                        <Border.Shadow>
+                                            <Shadow Brush="{StaticResource HighlightColor}" Offset="3,3" Opacity=".75" />
+                                        </Border.Shadow>
+
+                                        <Image  Grid.Column="0" Aspect="AspectFill">
+                                            <Image.Source>
+                                                <UriImageSource Uri="{Binding avatar}" CachingEnabled="False"/>
+                                            </Image.Source>
+                                        </Image>
+                                    </Border>
+                                    <VerticalStackLayout  Margin="30" Grid.Column="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+
+                                        <Label Text="{Binding name}" FontFamily="nevis" CharacterSpacing="0.3"
+                                   FontSize="Medium" TextColor="{StaticResource PrimaryColor}"/>
+                                        <Label Text="{Binding Location}" FontSize="Small" TextColor="{StaticResource AccentColor}" Margin="9"/>
+
+                                    </VerticalStackLayout>
+                                </Grid>
+                            </Border>
+                        </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>

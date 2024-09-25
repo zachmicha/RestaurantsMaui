@@ -21,6 +21,7 @@ namespace Restaurants.MVVM.Models
         public string Location { get; set; }
         public string Reviews { get; set; }
         public string id { get; set; }
+    
     }
 
 

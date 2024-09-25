@@ -1049,3 +1049,5 @@ F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android
 F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\resizetizer\f\outward-block.ttf
+F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\resizetizer\f\NevisBold.ttf

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restaurants.MVVM.Views.RestaurantDetailsView"             
+             Title="RestaurantDetailsView"
+             BackgroundColor="{StaticResource BackgroundColor}">
+    <Grid RowDefinitions=".4*,.6*">
+      
+            <Image  Grid.Row="0" Aspect="AspectFill">
+            <Image.Source>
+                <UriImageSource Uri="{Binding passedRestaurant.avatar}" CachingEnabled="False"/>
+            </Image.Source>
+        </Image>
+        <VerticalStackLayout Margin="20"
+            Grid.Row="0"  VerticalOptions="EndAndExpand" HorizontalOptions="StartAndExpand">
+            <Label Text="{Binding passedRestaurant.name}" FontSize="85"
+                  TextColor="White" FontFamily="outward" CharacterSpacing="0.3">
+                <Label.Shadow>
+                    <Shadow Brush="Black" Offset="2,2" Opacity="1" />
+                </Label.Shadow>
+            </Label>
+            <Label Text="{Binding passedRestaurant.Location}" VerticalOptions="Center"
+                   HorizontalOptions="Center" FontFamily="nevis"
+                   TextColor="{StaticResource White}" FontSize="Medium">
+                <Label.Shadow>
+                    <Shadow Brush="Black" Offset="2,2" Opacity="1" />
+                </Label.Shadow>
+            </Label>
+        </VerticalStackLayout>
+
+
+        <CollectionView Grid.Row="1" ItemsSource="{Binding Foods}" >
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Label Text="{Binding name}" VerticalOptions="Center" Margin="5"
+                           FontSize="20"
+                           Padding="10"
+                           HorizontalOptions="Center"/>                   
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>
