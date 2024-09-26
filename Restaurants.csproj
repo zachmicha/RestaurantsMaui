@@ -59,6 +59,8 @@
 	<ItemGroup>
 	  <None Remove="Resources\Fonts\NevisBold.ttf" />
 	  <None Remove="Resources\Fonts\outward-block.ttf" />
+	  <None Remove="Resources\Images\bskt_minus.svg" />
+	  <None Remove="Resources\Images\bskt_plus.svg" />
 	  <None Remove="Resources\Images\bulb.svg" />
 	  <None Remove="Resources\Images\r1.jfif" />
 	  <None Remove="Resources\Images\r2.jfif" />

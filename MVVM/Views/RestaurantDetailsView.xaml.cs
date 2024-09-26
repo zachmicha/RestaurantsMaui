@@ -4,64 +4,82 @@ using System.Diagnostics;
 using System.Net.Http;
 using System.Text.Json;
 using System.Windows.Input;
+using System.Linq;
+using System.ComponentModel;
 
 namespace Restaurants.MVVM.Views;
 
-public partial class RestaurantDetailsView : ContentPage
+public partial class RestaurantDetailsView : ContentPage, INotifyPropertyChanged
 {
+    bool _dataLoaded = false;
     private static readonly HttpClient _httpClient = new HttpClient();
-    JsonSerializerOptions _serializerOptions;
-    string baseUrl = "https://66dac750f47a05d55be5f0d5.mockapi.io/restaurants/";
-    public Restaurant passedRestaurant{ get; set; }
-    /*
-        public DateTime createdAt { get; set; }
-        public string name { get; set; }
-        public string avatar { get; set; }
-        public string Location { get; set; }
-        public string Reviews { get; set; }
-        public string id { get; set; }
-    */
-   static public ObservableCollection<Foods> Foods { get; private set; } = new ObservableCollection<Foods>();
-    public ICommand RetrieveFoods { get; private set; }
+    private JsonSerializerOptions _serializerOptions;
+    private string baseUrl = "https://66dac750f47a05d55be5f0d5.mockapi.io/restaurants/";
+    private Restaurant _passedRestaurant;
+
+    public Restaurant PassedRestaurant
+    {
+        get => _passedRestaurant;
+        set
+        {
+            if (_passedRestaurant != value)
+            {
+                _passedRestaurant = value;
+                OnPropertyChanged(nameof(PassedRestaurant));
+                OnPropertyChanged(nameof(FilteredFoods)); // Notify that FilteredFoods has changed
+            }
+        }
+    }
+
+    static public ObservableCollection<Foods> AllFoods { get; private set; } = new ObservableCollection<Foods>();
+    public ObservableCollection<Foods> FilteredFoods { get; private set; } = new ObservableCollection<Foods>();
+
+    public ICommand LoadFoodsCommand { get; private set; }
 
     public RestaurantDetailsView()
-	{
-		InitializeComponent();
-        passedRestaurant = new Restaurant();
-        Foods = new ();
-        _serializerOptions = new JsonSerializerOptions
-        {
-            PropertyNameCaseInsensitive = true // Allows case-insensitive matching of JSON properties
-        };
-        RetrieveFoods = new Command(async () => await LoadFoods());
-        BindingContext = this;
-    }
-    public RestaurantDetailsView(Restaurant restaurant)
     {
         InitializeComponent();
-        passedRestaurant = restaurant;
-        Foods = new ();
-        _serializerOptions = new JsonSerializerOptions
-        {
-            PropertyNameCaseInsensitive = true // Allows case-insensitive matching of JSON properties
-        };
-        RetrieveFoods = new Command(async () => await LoadFoods());
+        InitializeSerializerOptions();
+        LoadFoodsCommand = new Command(async () => await LoadFoods());
         BindingContext = this;
     }
+    public ICommand AddToBasketCommand => new Command(() =>
+    {
+        var u = 1;
+    });
+    public ICommand DeleteFromBasketCommand => new Command(() =>
+    {
+        var u = 1;
+    });
+    public RestaurantDetailsView(Restaurant restaurant) : this()
+    {
+        PassedRestaurant = restaurant;
+    }
+
     protected override void OnAppearing()
     {
         base.OnAppearing();
-        if (BindingContext is RestaurantDetailsView viewModel && viewModel.RetrieveFoods.CanExecute(null))
+        if (! _dataLoaded)
         {
-            viewModel.RetrieveFoods.Execute(null); // Invoke the command
-        }
+            LoadFoodsCommand.Execute(null);
+            _dataLoaded = true;
+        }        
     }
+
+    private void InitializeSerializerOptions()
+    {
+        _serializerOptions = new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        };
+    }
+
     private async Task LoadFoods()
     {
-        string allFoods = $"{baseUrl}Foods/";
+        string allFoodsUrl = $"{baseUrl}Foods/";
         try
         {
-            var response = await _httpClient.GetAsync(allFoods);
+            var response = await _httpClient.GetAsync(allFoodsUrl);
             if (response.IsSuccessStatusCode)
             {
                 var jsonResponse = await response.Content.ReadAsStringAsync();
@@ -73,13 +91,14 @@ public partial class RestaurantDetailsView : ContentPage
 
                     if (data != null && data.Count > 0)
                     {
-                        Foods.Clear();
+                        AllFoods.Clear();
                         foreach (var food in data)
                         {
-                            Foods.Add(food);
+                            AllFoods.Add(food);
                         }
 
                         Debug.WriteLine($"Deserialized {data.Count} foods.");
+                        FilterFoods(); // Call to filter foods after loading
                     }
                     else
                     {
@@ -96,5 +115,25 @@ public partial class RestaurantDetailsView : ContentPage
         {
             Debug.WriteLine($"Exception occurred: {ex.Message}");
         }
+    }
+
+    private void FilterFoods()
+    {
+        // Clear previous filtered foods
+        FilteredFoods.Clear();
+
+        // Filter foods based on the passed restaurant ID
+        var filtered = AllFoods.Where(food => food.RestaurantId == PassedRestaurant.id); // Assuming Foods has a property named RestaurantId
+
+        foreach (var food in filtered)
+        {
+            FilteredFoods.Add(food);
+        }
+    }
+
+    public event PropertyChangedEventHandler PropertyChanged;
+    protected void OnPropertyChanged(string propertyName)
+    {
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }
 }

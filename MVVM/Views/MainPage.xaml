@@ -8,12 +8,17 @@
 
         <VerticalStackLayout >
             <Grid Padding="0" Margin="0" HorizontalOptions="Fill" VerticalOptions="StartAndExpand">
-                <Image Grid.Row="0"
+                <Border StrokeThickness="0" BackgroundColor="Transparent">
+                    <Border.Shadow>
+                        <Shadow Brush="Black" Offset="3,3" Opacity="0.8" Radius="35"/>
+                    </Border.Shadow>
+                    <Image Grid.Row="0"
 Source="r2.jfif"
 HorizontalOptions="Center"
 VerticalOptions="Center"
 Aspect="AspectFit"
 SemanticProperties.Description="dot net bot in a race car number eight" />
+                </Border>
             </Grid>
             <Label x:Name="lblControl" Text="aiujhsgdhjkashjkdaskjhadhjkashdkjasshdoja" FontSize="40" TextColor="{StaticResource PrimaryColor}" Padding="15,15"/>
             <Button Text="Retrieve" Command="{Binding RetrieveAllRestaurants}"/>
@@ -25,7 +30,8 @@ SemanticProperties.Description="dot net bot in a race car number eight" />
                 <CollectionView.ItemTemplate>
                     
                     <DataTemplate >
-                        <Grid>                            
+                      
+                        <VerticalStackLayout>                            
                         <Border Padding="20" Margin="15" Stroke="Transparent" StrokeThickness="0"
                                 StrokeShape="RoundRectangle 10" BackgroundColor="{StaticResource Accent2}">
                             <Border.Shadow>
@@ -53,7 +59,8 @@ SemanticProperties.Description="dot net bot in a race car number eight" />
                                     </VerticalStackLayout>
                                 </Grid>
                             </Border>
-                        </Grid>
+                        </VerticalStackLayout>
+                       
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>

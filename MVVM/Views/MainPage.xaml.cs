@@ -25,6 +25,7 @@ public partial class MainPage : ContentPage
         BindingContext = this;
     }
 
+
     public ICommand RetrieveAllRestaurants => new Command(async () =>
     {
     string allRestaurantsUrl = $"{baseUrl}Restaurants";

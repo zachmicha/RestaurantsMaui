@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:restaurantView="clr-namespace:Restaurants.MVVM.Views"
              x:Class="Restaurants.MVVM.Views.RestaurantDetailsView"             
              Title="RestaurantDetailsView"
              BackgroundColor="{StaticResource BackgroundColor}">
     <Grid RowDefinitions=".4*,.6*">
-      
+
+        <Border StrokeThickness="0" BackgroundColor="Transparent">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="3,3" Opacity="0.8" Radius="35"/>
+            </Border.Shadow>
             <Image  Grid.Row="0" Aspect="AspectFill">
-            <Image.Source>
-                <UriImageSource Uri="{Binding passedRestaurant.avatar}" CachingEnabled="False"/>
-            </Image.Source>
-        </Image>
+                <Image.Source>
+                    <UriImageSource Uri="{Binding PassedRestaurant.avatar}" CachingEnabled="False"/>
+                </Image.Source>
+            </Image>
+        </Border>
         <VerticalStackLayout Margin="20"
             Grid.Row="0"  VerticalOptions="EndAndExpand" HorizontalOptions="StartAndExpand">
-            <Label Text="{Binding passedRestaurant.name}" FontSize="85"
+            <Label Text="{Binding PassedRestaurant.name}" FontSize="85"
                   TextColor="White" FontFamily="outward" CharacterSpacing="0.3">
                 <Label.Shadow>
                     <Shadow Brush="Black" Offset="2,2" Opacity="1" />
                 </Label.Shadow>
             </Label>
-            <Label Text="{Binding passedRestaurant.Location}" VerticalOptions="Center"
+            <Label Text="{Binding PassedRestaurant.Location}" VerticalOptions="Center"
                    HorizontalOptions="Center" FontFamily="nevis"
                    TextColor="{StaticResource White}" FontSize="Medium">
                 <Label.Shadow>
@@ -29,13 +35,54 @@
         </VerticalStackLayout>
 
 
-        <CollectionView Grid.Row="1" ItemsSource="{Binding Foods}" >
+        <CollectionView Grid.Row="1" ItemsSource="{Binding FilteredFoods}">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Label Text="{Binding name}" VerticalOptions="Center" Margin="5"
-                           FontSize="20"
-                           Padding="10"
-                           HorizontalOptions="Center"/>                   
+                    <SwipeView>
+                        <SwipeView.RightItems>
+                            <SwipeItems>
+                                <SwipeItem BackgroundColor="{StaticResource AccentColor}"
+                         Command="{Binding Source={RelativeSource AncestorType={x:Type restaurantView:RestaurantDetailsView}},Path=AddToBasketCommand}" 
+                         IconImageSource="bskt_plus.png"/>
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+                        <SwipeView.LeftItems>
+                            <SwipeItems>
+                                <SwipeItem BackgroundColor="{StaticResource PrimaryColor}"
+                         Command="{Binding Source={RelativeSource AncestorType={x:Type restaurantView:RestaurantDetailsView}},Path=DeleteFromBasketCommand}" 
+                         IconImageSource="bskt_minus.png"/>
+                            </SwipeItems>
+                        </SwipeView.LeftItems>
+
+                        <Grid Padding="12">
+                        <Border Padding="5" Margin="5" Stroke="Transparent" StrokeThickness="0"
+                                StrokeShape="RoundRectangle 10" BackgroundColor="{StaticResource Accent2}">
+                            <Border.Shadow>
+                                <Shadow Brush="Black" Offset="2,10" Opacity="0.5" Radius="5"/>
+                            </Border.Shadow>
+                    <Grid Margin="15" ColumnDefinitions=".4*,.6*">
+                        <Border StrokeShape="RoundRectangle 10" WidthRequest="100" 
+      HeightRequest="100"  StrokeThickness="0" Grid.Column="0" HorizontalOptions="StartAndExpand">
+                            <Border.Shadow>
+                                <Shadow Brush="{StaticResource HighlightColor}" Offset="3,3" Opacity=".75" />
+                            </Border.Shadow>
+
+                            <Image  Grid.Column="0" Aspect="AspectFill">
+                                <Image.Source>
+                                    <UriImageSource Uri="{Binding picture}" CachingEnabled="False"/>
+                                </Image.Source>
+                            </Image>
+                        </Border>
+                        <VerticalStackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center">
+                            <Label  Text="{Binding name}" VerticalOptions="Center" Margin="5" HorizontalOptions="StartAndExpand" FontSize="Medium"/>
+                            <Label  Text="{Binding price}" VerticalOptions="Center" Margin="5" HorizontalOptions="StartAndExpand" TextColor="{StaticResource AccentColor}"/>
+                            
+                        </VerticalStackLayout>
+                    </Grid>
+                            
+                        </Border>
+                    </Grid>
+                    </SwipeView>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>

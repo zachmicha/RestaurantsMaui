@@ -1051,3 +1051,13 @@ F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android
 F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
 F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\resizetizer\f\outward-block.ttf
 F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\resizetizer\f\NevisBold.ttf
+F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\bskt_minus.png
+F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\bskt_plus.png
+F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\bskt_minus.png
+F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\bskt_plus.png
+F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\bskt_minus.png
+F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\bskt_plus.png
+F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\bskt_minus.png
+F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\bskt_plus.png
+F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\bskt_minus.png
+F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\bskt_plus.png
