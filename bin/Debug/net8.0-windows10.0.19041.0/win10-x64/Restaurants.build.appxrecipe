@@ -55,200 +55,251 @@
     <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\NevisBold.ttf">
+      <PackagePath>NevisBold.ttf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
-      <PackagePath>appicon.ico</PackagePath>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\outward-block.ttf">
+      <PackagePath>outward-block.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
-      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bskt_minus.scale-400.png">
+      <PackagePath>bskt_minus.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bskt_minus.scale-200.png">
+      <PackagePath>bskt_minus.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bskt_minus.scale-150.png">
+      <PackagePath>bskt_minus.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bskt_minus.scale-125.png">
+      <PackagePath>bskt_minus.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
-      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bskt_minus.scale-100.png">
+      <PackagePath>bskt_minus.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bskt_plus.scale-400.png">
+      <PackagePath>bskt_plus.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bskt_plus.scale-200.png">
+      <PackagePath>bskt_plus.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bskt_plus.scale-150.png">
+      <PackagePath>bskt_plus.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bskt_plus.scale-125.png">
+      <PackagePath>bskt_plus.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
-      <PackagePath>appiconLogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
-      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bulb.scale-100.png">
-      <PackagePath>bulb.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bulb.scale-125.png">
-      <PackagePath>bulb.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bulb.scale-150.png">
-      <PackagePath>bulb.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bulb.scale-200.png">
-      <PackagePath>bulb.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bulb.scale-400.png">
-      <PackagePath>bulb.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
-      <PackagePath>home.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-125.png">
-      <PackagePath>home.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-150.png">
-      <PackagePath>home.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-200.png">
-      <PackagePath>home.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-400.png">
-      <PackagePath>home.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bskt_plus.scale-100.png">
+      <PackagePath>bskt_plus.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\r1.scale-100.jfif">
       <PackagePath>r1.scale-100.jfif</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\r2.scale-100.jfif">
       <PackagePath>r2.scale-100.jfif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-400.png">
+      <PackagePath>home.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-200.png">
+      <PackagePath>home.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-150.png">
+      <PackagePath>home.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-125.png">
+      <PackagePath>home.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
+      <PackagePath>home.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bskt_default.scale-400.png">
+      <PackagePath>bskt_default.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bskt_default.scale-200.png">
+      <PackagePath>bskt_default.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bskt_default.scale-150.png">
+      <PackagePath>bskt_default.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bskt_default.scale-125.png">
+      <PackagePath>bskt_default.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bskt_default.scale-100.png">
+      <PackagePath>bskt_default.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bulb.scale-400.png">
+      <PackagePath>bulb.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bulb.scale-200.png">
+      <PackagePath>bulb.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bulb.scale-150.png">
+      <PackagePath>bulb.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bulb.scale-125.png">
+      <PackagePath>bulb.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bulb.scale-100.png">
+      <PackagePath>bulb.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Restaurants.deps.json">
       <PackagePath>Restaurants.deps.json</PackagePath>
@@ -354,6 +405,24 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\krwaw\.nuget\packages\microsoft.windowsappsdk\1.5.240607001\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krwaw\.nuget\packages\syncfusion.licensing\27.1.50\lib\net8.0\Syncfusion.Licensing.dll">
+      <PackagePath>Syncfusion.Licensing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krwaw\.nuget\packages\syncfusion.maui.core\27.1.50\lib\net8.0-windows10.0.19041.0\Syncfusion.Maui.Core.dll">
+      <PackagePath>Syncfusion.Maui.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krwaw\.nuget\packages\syncfusion.maui.datasource\27.1.50\lib\net8.0-windows10.0.19041.0\Syncfusion.Maui.DataSource.dll">
+      <PackagePath>Syncfusion.Maui.DataSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krwaw\.nuget\packages\syncfusion.maui.gridcommon\27.1.50\lib\net8.0-windows10.0.19041.0\Syncfusion.Maui.GridCommon.dll">
+      <PackagePath>Syncfusion.Maui.GridCommon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krwaw\.nuget\packages\syncfusion.maui.inputs\27.1.50\lib\net8.0-windows10.0.19041.0\Syncfusion.Maui.Inputs.dll">
+      <PackagePath>Syncfusion.Maui.Inputs.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krwaw\.nuget\packages\syncfusion.maui.listview\27.1.50\lib\net8.0-windows10.0.19041.0\Syncfusion.Maui.ListView.dll">
+      <PackagePath>Syncfusion.Maui.ListView.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\krwaw\.nuget\packages\microsoft.maui.controls.core\8.0.72\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
@@ -471,6 +540,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\krwaw\.nuget\packages\microsoft.maui.core\8.0.72\lib\net8.0-windows10.0.19041\Microsoft.Maui.pri">
       <PackagePath>Microsoft.Maui.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krwaw\.nuget\packages\syncfusion.maui.core\27.1.50\lib\net8.0-windows10.0.19041.0\Syncfusion.Maui.Core.pri">
+      <PackagePath>Syncfusion.Maui.Core.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

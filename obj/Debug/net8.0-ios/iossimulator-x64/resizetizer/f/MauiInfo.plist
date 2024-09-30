@@ -4,8 +4,10 @@
 <dict>
   <key>UIAppFonts</key>
   <array>
+	<string>NevisBold.ttf</string>
 	<string>OpenSans-Regular.ttf</string>
 	<string>OpenSans-Semibold.ttf</string>
+	<string>outward-block.ttf</string>
   </array>
 
 </dict>

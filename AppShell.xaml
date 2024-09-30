@@ -25,6 +25,15 @@
             <ShellContent ContentTemplate="{DataTemplate views:AboutPage}"/>
         </Tab>
     </FlyoutItem>
+    <FlyoutItem Title="Basket"
+                >
+        <FlyoutItem.Icon>
+            <FileImageSource File="bskt_default.png" />
+        </FlyoutItem.Icon>
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate views:BasketView}"/>
+        </Tab>
+    </FlyoutItem>
     <!--<FlyoutItem Title="Detaails"
              >
         <FlyoutItem.Icon>

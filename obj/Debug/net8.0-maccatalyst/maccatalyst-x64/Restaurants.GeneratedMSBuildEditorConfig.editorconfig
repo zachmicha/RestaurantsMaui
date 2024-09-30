@@ -34,6 +34,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Restaurants.MVVM.Views.Abo
 build_metadata.AdditionalFiles.TargetPath = MVVM\Views\AboutPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\Views\AboutPage.xaml
 
+[F:/PersonalneProjekty/MyMauiApp/Restaurants/Restaurants/MVVM/Views/BasketView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Restaurants.MVVM.Views.BasketView.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\Views\BasketView.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\Views\BasketView.xaml
+
 [F:/PersonalneProjekty/MyMauiApp/Restaurants/Restaurants/MVVM/Views/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Restaurants.MVVM.Views.MainPage.xaml

@@ -7,8 +7,14 @@ using System.Threading.Tasks;
 
 namespace Restaurants.MVVM.Models
 {
-    public static class Basket
+    public class Basket
     {
-        public static List<Foods> BasketContent { get; set; } = new List<Foods>();
+        public static List<Basket> BasketContent { get; set; } = new List<Basket>();
+        public Foods FoodItem { get; set; }
+        public int NumberOfFoods { get; set; }
+        public Basket()
+        {
+                
+        }
     }
 }

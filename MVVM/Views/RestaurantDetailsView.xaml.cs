@@ -11,6 +11,7 @@ namespace Restaurants.MVVM.Views;
 
 public partial class RestaurantDetailsView : ContentPage, INotifyPropertyChanged
 {
+
     bool _dataLoaded = false;
     private static readonly HttpClient _httpClient = new HttpClient();
     private JsonSerializerOptions _serializerOptions;
@@ -36,34 +37,29 @@ public partial class RestaurantDetailsView : ContentPage, INotifyPropertyChanged
 
     public ICommand LoadFoodsCommand { get; private set; }
 
-    public RestaurantDetailsView()
-    {
-        InitializeComponent();
-        InitializeSerializerOptions();
-        LoadFoodsCommand = new Command(async () => await LoadFoods());
-        BindingContext = this;
-    }
-    public ICommand AddToBasketCommand => new Command(() =>
-    {
-        var u = 1;
-    });
+
+
     public ICommand DeleteFromBasketCommand => new Command(() =>
     {
         var u = 1;
     });
-    public RestaurantDetailsView(Restaurant restaurant) : this()
+    public RestaurantDetailsView(Restaurant restaurant)
     {
+        InitializeComponent();
+        InitializeSerializerOptions();
+        LoadFoodsCommand = new Command(async () => await LoadFoods());
         PassedRestaurant = restaurant;
+        BindingContext = this;
     }
 
     protected override void OnAppearing()
     {
         base.OnAppearing();
-        if (! _dataLoaded)
+        if (!_dataLoaded)
         {
             LoadFoodsCommand.Execute(null);
             _dataLoaded = true;
-        }        
+        }
     }
 
     private void InitializeSerializerOptions()
@@ -136,4 +132,5 @@ public partial class RestaurantDetailsView : ContentPage, INotifyPropertyChanged
     {
         PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }
+
 }

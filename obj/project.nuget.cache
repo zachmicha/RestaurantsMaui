@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RpyPYeHnET0=",
+  "dgSpecHash": "nqS++jSS+V8=",
   "success": true,
   "projectFilePath": "F:\\PersonalneProjekty\\MyMauiApp\\Restaurants\\Restaurants\\Restaurants.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,12 @@
     "C:\\Users\\krwaw\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.8\\microsoft.net.illink.tasks.8.0.8.nupkg.sha512",
     "C:\\Users\\krwaw\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\krwaw\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240607001\\microsoft.windowsappsdk.1.5.240607001.nupkg.sha512",
+    "C:\\Users\\krwaw\\.nuget\\packages\\syncfusion.licensing\\27.1.50\\syncfusion.licensing.27.1.50.nupkg.sha512",
+    "C:\\Users\\krwaw\\.nuget\\packages\\syncfusion.maui.core\\27.1.50\\syncfusion.maui.core.27.1.50.nupkg.sha512",
+    "C:\\Users\\krwaw\\.nuget\\packages\\syncfusion.maui.datasource\\27.1.50\\syncfusion.maui.datasource.27.1.50.nupkg.sha512",
+    "C:\\Users\\krwaw\\.nuget\\packages\\syncfusion.maui.gridcommon\\27.1.50\\syncfusion.maui.gridcommon.27.1.50.nupkg.sha512",
+    "C:\\Users\\krwaw\\.nuget\\packages\\syncfusion.maui.inputs\\27.1.50\\syncfusion.maui.inputs.27.1.50.nupkg.sha512",
+    "C:\\Users\\krwaw\\.nuget\\packages\\syncfusion.maui.listview\\27.1.50\\syncfusion.maui.listview.27.1.50.nupkg.sha512",
     "C:\\Users\\krwaw\\.nuget\\packages\\xamarin.android.glide\\4.15.1.2\\xamarin.android.glide.4.15.1.2.nupkg.sha512",
     "C:\\Users\\krwaw\\.nuget\\packages\\xamarin.android.glide.annotations\\4.15.1.2\\xamarin.android.glide.annotations.4.15.1.2.nupkg.sha512",
     "C:\\Users\\krwaw\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.15.1.2\\xamarin.android.glide.disklrucache.4.15.1.2.nupkg.sha512",

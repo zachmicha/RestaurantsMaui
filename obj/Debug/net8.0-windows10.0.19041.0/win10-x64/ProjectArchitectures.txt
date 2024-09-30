@@ -1,1 +1,0 @@
-F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\Restaurants.csproj;x64
