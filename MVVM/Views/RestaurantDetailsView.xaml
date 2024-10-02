@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:restaurantView="clr-namespace:Restaurants.MVVM.Views"
               xmlns:model="clr-namespace:Restaurants.MVVM.Models"
-             x:Class="Restaurants.MVVM.Views.RestaurantDetailsView"  
+             xmlns:views="clr-namespace:Restaurants.MVVM.Views"
+                x:Class="Restaurants.MVVM.Views.RestaurantDetailsView"
              Title="RestaurantDetailsView"
              BackgroundColor="{StaticResource BackgroundColor}">
 
