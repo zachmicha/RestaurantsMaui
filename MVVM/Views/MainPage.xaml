@@ -21,7 +21,7 @@ SemanticProperties.Description="dot net bot in a race car number eight" />
                 </Border>
             </Grid>
             <Label x:Name="lblControl" Text="aiujhsgdhjkashjkdaskjhadhjkashdkjasshdoja" FontSize="40" TextColor="{StaticResource PrimaryColor}" Padding="15,15"/>
-            <Button Text="Retrieve" Command="{Binding RetrieveAllRestaurants}"/>
+            <Button Text="Retrieve" Command="{Binding RetrieveAllRestaurantsCommand}"/>
             
             <CollectionView VerticalOptions="FillAndExpand" EmptyView="No data avilable"
                             ItemsSource="{Binding RestaurantsList}"
