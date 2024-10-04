@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:restaurantView="clr-namespace:Restaurants.MVVM.Views"
+             xmlns:restaurantView="clr-namespace:Restaurants.MVVM.ViewModels"
               xmlns:model="clr-namespace:Restaurants.MVVM.Models"
              xmlns:views="clr-namespace:Restaurants.MVVM.Views"
                 x:Class="Restaurants.MVVM.Views.RestaurantDetailsView"
@@ -64,7 +64,7 @@
                                     </Border>
                                     <VerticalStackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center">
                                         <Label  Text="{Binding name}" VerticalOptions="Center" Margin="5" HorizontalOptions="StartAndExpand" FontSize="Medium"/>
-                                        <Label  Text="{Binding price}" Grid.Row="0" VerticalOptions="Center" Margin="5" HorizontalOptions="StartAndExpand" TextColor="{StaticResource AccentColor}"/>
+                                        <Label  Text="{Binding price, StringFormat='${0}'}" Grid.Row="0" VerticalOptions="Center" Margin="5" HorizontalOptions="StartAndExpand" TextColor="{StaticResource AccentColor}"/>
                                     </VerticalStackLayout>
                                 </Grid>
 
@@ -73,7 +73,8 @@
                         <SwipeView.RightItems>
                             <SwipeItems>
                                 <SwipeItem BackgroundColor="{StaticResource AccentColor}"
-      Command="{Binding Source={RelativeSource AncestorType={x:Type restaurantView:RestaurantDetailsView}},Path=AddToBasketCommand}" 
+      Command="{Binding Source={RelativeSource AncestorType={x:Type restaurantView:RestaurantDetailsViewModel}},Path=AddToBasketCommand}" 
+                                           CommandParameter="{Binding .}"
                         IconImageSource="bskt_plus.png">
                                 </SwipeItem>
                             </SwipeItems>
@@ -81,7 +82,8 @@
                         <SwipeView.LeftItems>
                             <SwipeItems>
                                 <SwipeItem BackgroundColor="{StaticResource PrimaryColor}"
-      Command="{Binding Source={RelativeSource AncestorType={x:Type restaurantView:RestaurantDetailsView}},Path=DeleteFromBasketCommand}" 
+      Command="{Binding Source={RelativeSource AncestorType={x:Type restaurantView:RestaurantDetailsViewModel}},Path=DeleteFromBasketCommand}" 
+                                           CommandParameter="{Binding .}"
       IconImageSource="bskt_minus.png"/>
                             </SwipeItems>
                         </SwipeView.LeftItems>

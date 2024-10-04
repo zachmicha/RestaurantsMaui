@@ -1,5 +1,5 @@
-﻿using Restaurants.MVVM.Models;
-using Syncfusion.Maui.Core.Carousel;
+﻿using CommunityToolkit.Maui.Alerts;
+using Restaurants.MVVM.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -24,8 +24,14 @@ namespace Restaurants.MVVM.ViewModels
                 PropertyNameCaseInsensitive = true
             };
         }
+
+        //Commands
+
         public ICommand LoadFoodsCommand { get;}
         public ICommand DeleteFromBasketCommand { get; }
+
+        public ICommand AddToBasketCommand { get; }
+        //Collections
         private ObservableCollection<Foods> _filteredFoods = new ObservableCollection<Foods>();
         public ObservableCollection<Foods> FilteredFoods
         {
@@ -56,7 +62,8 @@ namespace Restaurants.MVVM.ViewModels
             this.PassedRestaurant = PassedRestaurant;
             InitializeSerializerOptions();
             LoadFoodsCommand = new Command(async () => await LoadFoods());
-            DeleteFromBasketCommand = new Command(DeleteFromBasket);           
+            DeleteFromBasketCommand = new Command<Foods>(DeleteFromBasket);
+            AddToBasketCommand = new Command<Foods>(AddToBasketMethod);
         }
         private void FilterFoods()
         {
@@ -72,9 +79,25 @@ namespace Restaurants.MVVM.ViewModels
             }
         }
 
-        private void DeleteFromBasket()
+        private async void DeleteFromBasket(Foods food)
         {
-            //not implemented yet
+            if (food != null)
+            {
+                Debug.WriteLine($"Deleting {food.name} from the basket");
+                //Find the matching item by 'id'
+                var itemToRemove = StaticResources.BasketItems.FirstOrDefault(f => f.id == food.id);
+
+                if (itemToRemove != null)
+                {
+                    StaticResources.BasketItems.Remove(itemToRemove);
+                    var toast = Toast.Make("Deleted item from the basket");
+                    await toast.Show();
+                }
+                else
+                {
+                    Debug.WriteLine("Item not found in basket");
+                }
+            }
         }
 
         public async Task LoadFoods()
@@ -124,6 +147,17 @@ namespace Restaurants.MVVM.ViewModels
         protected void OnPropertyChanged(string propertyName)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+      async void AddToBasketMethod(Foods food)
+        {
+            Debug.WriteLine("Added Command activated");
+            if (food !=null)
+            {
+                Debug.WriteLine($"Adding {food.name} to the basket");
+                StaticResources.BasketItems.Add(food);
+                var toast = Toast.Make("Added item to the basket");
+                await toast.Show();
+            }
         }
     }
 }

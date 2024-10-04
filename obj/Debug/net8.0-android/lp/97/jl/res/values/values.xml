@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="androidx_startup" translatable="false">androidx.startup</string>
+    <id name="view_tree_lifecycle_owner"/>
 </resources>
