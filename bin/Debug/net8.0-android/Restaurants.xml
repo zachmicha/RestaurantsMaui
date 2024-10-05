@@ -4,6 +4,15 @@
         <name>Restaurants</name>
     </assembly>
     <members>
+        <member name="T:Restaurants.MVVM.ViewModels.MainPageViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:Restaurants.MVVM.ViewModels.MainPageViewModel.retrieveAllRestaurantsCommand">
+            <summary>The backing field for <see cref="P:Restaurants.MVVM.ViewModels.MainPageViewModel.RetrieveAllRestaurantsCommand"/>.</summary>
+        </member>
+        <member name="P:Restaurants.MVVM.ViewModels.MainPageViewModel.RetrieveAllRestaurantsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Restaurants.MVVM.ViewModels.MainPageViewModel.RetrieveAllRestaurants"/>.</summary>
+        </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
             <summary>
             Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color

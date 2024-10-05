@@ -53,7 +53,7 @@
                                     <Border StrokeShape="RoundRectangle 10" WidthRequest="100" 
       HeightRequest="100"  StrokeThickness="0" Grid.Column="0" HorizontalOptions="StartAndExpand">
                                         <Border.Shadow>
-                                            <Shadow Brush="{StaticResource HighlightColor}" Offset="3,3" Opacity=".75" />
+                                            <Shadow Brush="{StaticResource BackgroundColor2}" Offset="3,3" Opacity=".75" />
                                         </Border.Shadow>
 
                                         <Image  Grid.Column="0" Aspect="AspectFill">

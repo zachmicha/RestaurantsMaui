@@ -20,9 +20,12 @@ Aspect="AspectFit"
 SemanticProperties.Description="dot net bot in a race car number eight" />
                 </Border>
             </Grid>
-            <Label x:Name="lblControl" Text="aiujhsgdhjkashjkdaskjhadhjkashdkjasshdoja" FontSize="40" TextColor="{StaticResource PrimaryColor}" Padding="15,15"/>
-            <Button Text="Retrieve" Command="{Binding RetrieveAllRestaurantsCommand}"/>
-            
+            <Label x:Name="lblControl" Text="Choose restaurant to dine in" FontSize="40" TextColor="{StaticResource PrimaryColor}" Padding="15,15"/>
+            <!--<Button Text="Retrieve" Command="{Binding RetrieveAllRestaurantsCommand}"/>-->
+            <ActivityIndicator IsRunning="{Binding RetrieveAllRestaurantsCommand.IsRunning}"  
+                               IsVisible="{Binding RetrieveAllRestaurantsCommand.IsRunning}"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"/>
             <CollectionView VerticalOptions="FillAndExpand" EmptyView="No data avilable"
                             ItemsSource="{Binding RestaurantsList}"
                             SelectionMode="Single" SelectionChanged="OnSelectionChanged">
@@ -41,7 +44,7 @@ SemanticProperties.Description="dot net bot in a race car number eight" />
                                     <Border StrokeShape="RoundRectangle 50" WidthRequest="100" 
                                         HeightRequest="100"  StrokeThickness="0">
                                         <Border.Shadow>
-                                            <Shadow Brush="{StaticResource HighlightColor}" Offset="3,3" Opacity=".75" />
+                                            <Shadow Brush="{StaticResource BackgroundColor2}" Offset="3,3" Opacity=".75" />
                                         </Border.Shadow>
 
                                         <Image  Grid.Column="0" Aspect="AspectFill">

@@ -23,7 +23,7 @@
                         <Border Padding="5" Margin="5" Stroke="Transparent" StrokeThickness="0"
                           StrokeShape="RoundRectangle 10" BackgroundColor="{StaticResource Accent2}">
                             <Border.Shadow>
-                                <Shadow Brush="Black" Offset="2,10" Opacity="0.5" Radius="5"/>
+                                    <Shadow Brush="{StaticResource BackgroundColor2}" Offset="2,10" Opacity="0.5" Radius="5"/>
                             </Border.Shadow>
                             <Grid Margin="15" ColumnDefinitions=".4*,.6*">
                                 <Border StrokeShape="RoundRectangle 10" WidthRequest="100" 

@@ -1074,3 +1074,5 @@ F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android
 F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\android\src\crc64159f3caeb1269279\MauiSemanticOrderView.java
 F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\android\src\crc648fc34c62be8fbbff\Snackbar_SnackbarCallback.java
 F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\android\src\crc64d6358e7bf64fbac4\SpeechToTextImplementation_SpeechRecognitionListener.java
+F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Mvvm.dll
+F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Mvvm.pdb

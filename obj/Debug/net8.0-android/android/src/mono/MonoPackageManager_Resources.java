@@ -5,6 +5,7 @@ public class MonoPackageManager_Resources {
 		"Restaurants.dll",
 		"CommunityToolkit.Maui.dll",
 		"CommunityToolkit.Maui.Core.dll",
+		"CommunityToolkit.Mvvm.dll",
 		"GoogleGson.dll",
 		"Microsoft.Extensions.Configuration.dll",
 		"Microsoft.Extensions.Configuration.Abstractions.dll",

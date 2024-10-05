@@ -1,10 +1,15 @@
-﻿using Restaurants.MVVM.Models;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using Restaurants.MVVM.Models;
 using Restaurants.MVVM.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Collections.Specialized;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -12,28 +17,39 @@ using System.Windows.Input;
 
 namespace Restaurants.MVVM.ViewModels
 {
-    public class MainPageViewModel
+    
+    public partial class MainPageViewModel
     {
+        //[ObservableProperty]
+        //public bool isLoading;
+    
         JsonSerializerOptions _serializerOptions;
         private static readonly HttpClient _httpClient = new HttpClient();
         string baseUrl = "https://66dac750f47a05d55be5f0d5.mockapi.io/restaurants/";
+
+    
+
+
         public ObservableCollection<Restaurant> RestaurantsList { get; set; }
-        public ICommand RetrieveAllRestaurantsCommand { get; }
+        //public ICommand RetrieveAllRestaurantsCommand { get; }
         public MainPageViewModel()
         {
             RestaurantsList = new ObservableCollection<Restaurant>();
-
             _serializerOptions = new JsonSerializerOptions
             {
                 PropertyNameCaseInsensitive = true // Allows case-insensitive matching of JSON properties
             };
-            RetrieveAllRestaurantsCommand = new Command(async () => await RetrieveAllRestaurants());
+            //RetrieveAllRestaurantsCommand = new Command(async () => await RetrieveAllRestaurants());
+            
         }
+        [RelayCommand]
         private async Task RetrieveAllRestaurants()
         {
+            
             string allRestaurantsUrl = $"{baseUrl}Restaurants";
             try
             {
+               
                 var response = await _httpClient.GetAsync(allRestaurantsUrl);
                 if (response.IsSuccessStatusCode)
                 {
@@ -95,5 +111,6 @@ namespace Restaurants.MVVM.ViewModels
                 await navigation.PushAsync(new RestaurantDetailsView(selectedRestaurant));
             }
         }
+
     }
 }

@@ -1,4 +1,5 @@
-﻿namespace Restaurants
+﻿
+namespace Restaurants
 {
     public partial class App : Application
     {
@@ -8,5 +9,21 @@
 
             MainPage = new AppShell();
         }
+
+#if WINDOWS10_0_17763_0_OR_GREATER
+        protected override Window CreateWindow(IActivationState activationState)
+        {
+            var window = base.CreateWindow(activationState);
+
+            const int newWidth = 600;
+            const int newHeight = 900;
+
+            window.Width = newWidth;
+            window.Height = newHeight;
+
+            return window;
+        }
+#endif
+
     }
 }

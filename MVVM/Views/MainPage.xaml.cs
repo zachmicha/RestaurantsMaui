@@ -9,13 +9,13 @@ namespace Restaurants.MVVM.Views;
 
 public partial class MainPage : ContentPage
 {
-
-  
+    public MainPageViewModel ViewModel { get; set; }
+    bool wasRetrieved = false; 
     public MainPage()
     {
         InitializeComponent();
-      
-        BindingContext = new MainPageViewModel();
+        ViewModel = new MainPageViewModel();
+        BindingContext = ViewModel;
     }
 
 
@@ -36,6 +36,15 @@ public partial class MainPage : ContentPage
             }
 
                 ((CollectionView)sender).SelectedItem = null;
+        }
+    }
+    protected override async void OnAppearing()
+    {
+        base.OnAppearing();
+        if (wasRetrieved == false)
+        {
+        ViewModel.RetrieveAllRestaurantsCommand.Execute(null);
+            wasRetrieved = true;
         }
     }
 }
