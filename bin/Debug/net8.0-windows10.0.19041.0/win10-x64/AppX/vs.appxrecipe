@@ -30,13 +30,13 @@
     <AppXManifest Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-08T16:42:56.536</Modified>
+      <Modified>2024-10-08T17:53:14.384</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-10-08T16:37:06.678</Modified>
+      <Modified>2024-10-08T17:48:22.238</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Restaurants.runtimeconfig.json">
       <PackagePath>Restaurants.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Restaurants.dll">
       <PackagePath>Restaurants.dll</PackagePath>
-      <Modified>2024-10-08T16:42:55.326</Modified>
+      <Modified>2024-10-08T17:53:13.703</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Restaurants.exe</PackagePath>
-      <Modified>2024-10-08T16:42:55.490</Modified>
+      <Modified>2024-10-08T17:53:13.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -404,7 +404,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Restaurants.deps.json">
       <PackagePath>Restaurants.deps.json</PackagePath>
-      <Modified>2024-10-08T16:37:06.482</Modified>
+      <Modified>2024-10-08T17:48:22.036</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\krwaw\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

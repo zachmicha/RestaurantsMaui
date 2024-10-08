@@ -151,7 +151,7 @@ namespace Restaurants.MVVM.ViewModels
       async void AddToBasketMethod(Foods food)
         {
             Debug.WriteLine("Added Command activated");
-            if (food !=null)
+            if (food !=null && !StaticResources.BasketItems.Contains(food))
             {
                 Debug.WriteLine($"Adding {food.name} to the basket");
                 StaticResources.BasketItems.Add(food);
