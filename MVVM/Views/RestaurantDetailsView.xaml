@@ -5,7 +5,6 @@
               xmlns:model="clr-namespace:Restaurants.MVVM.Models"
              xmlns:views="clr-namespace:Restaurants.MVVM.Views"
                 x:Class="Restaurants.MVVM.Views.RestaurantDetailsView"
-             Title="RestaurantDetailsView"
              BackgroundColor="{StaticResource BackgroundColor}">
 
     <Grid RowDefinitions=".4*,.6*">
@@ -37,12 +36,12 @@
             </Label>
         </VerticalStackLayout>
 
-
-        <CollectionView Grid.Row="1" ItemsSource="{Binding FilteredFoods}">
+        <OnPlatform x:TypeArguments="View">
+            <On Platform="Android, iOS">
+                <CollectionView Grid.Row="1" ItemsSource="{Binding FilteredFoods}">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <SwipeView>
-
                         <Grid Padding="12">
                             <Border Padding="5" Margin="5" Stroke="Transparent" StrokeThickness="0"
                                 StrokeShape="RoundRectangle 10" BackgroundColor="{StaticResource Accent2}">
@@ -70,15 +69,16 @@
 
                             </Border>
                         </Grid>
-                        <SwipeView.RightItems>
-                            <SwipeItems>
-                                <SwipeItem BackgroundColor="{StaticResource AccentColor}"
+                           
+                                <SwipeView.RightItems>
+                                <SwipeItems>
+                                    <SwipeItem BackgroundColor="{StaticResource AccentColor}"
       Command="{Binding Source={RelativeSource AncestorType={x:Type restaurantView:RestaurantDetailsViewModel}},Path=AddToBasketCommand}" 
                                            CommandParameter="{Binding .}"
                         IconImageSource="bskt_plus.png">
-                                </SwipeItem>
-                            </SwipeItems>
-                        </SwipeView.RightItems>
+                                    </SwipeItem>
+                                </SwipeItems>
+                            </SwipeView.RightItems>
                         <SwipeView.LeftItems>
                             <SwipeItems>
                                 <SwipeItem BackgroundColor="{StaticResource PrimaryColor}"
@@ -87,10 +87,52 @@
       IconImageSource="bskt_minus.png"/>
                             </SwipeItems>
                         </SwipeView.LeftItems>
-
                     </SwipeView>
-                </DataTemplate>
+                        
+                    </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
+            </On>
+            <On Platform="WinUI">
+                <CollectionView Grid.Row="1" ItemsSource="{Binding FilteredFoods}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Padding="12">
+                                <Border Padding="5" Margin="5" Stroke="Transparent" StrokeThickness="0"
+                          StrokeShape="RoundRectangle 10" BackgroundColor="{StaticResource Accent2}">
+                                    <Border.Shadow>
+                                        <Shadow Brush="Black" Offset="2,10" Opacity="0.5" Radius="5"/>
+                                    </Border.Shadow>
+                                    <Grid Margin="15" ColumnDefinitions=".4*,.6*">
+                                        <Border StrokeShape="RoundRectangle 10" WidthRequest="100" 
+HeightRequest="100"  StrokeThickness="0" Grid.Column="0" HorizontalOptions="StartAndExpand">
+                                            <Border.Shadow>
+                                                <Shadow Brush="{StaticResource BackgroundColor2}" Offset="3,3" Opacity=".75" />
+                                            </Border.Shadow>
+
+                                            <Image  Grid.Column="0" Aspect="AspectFill">
+                                                <Image.Source>
+                                                    <UriImageSource Uri="{Binding picture}" CachingEnabled="False"/>
+                                                </Image.Source>
+                                            </Image>
+                                        </Border>
+                                        <VerticalStackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center">
+                                            <Label  Text="{Binding name}" VerticalOptions="Center" Margin="5" HorizontalOptions="StartAndExpand" FontSize="Medium"/>
+                                            <Label  Text="{Binding price, StringFormat='${0}'}" Grid.Row="0" VerticalOptions="Center" Margin="5" HorizontalOptions="StartAndExpand" TextColor="{StaticResource AccentColor}"/>
+                                            <Button Text="Add to Basket"
+                        Command="{Binding Source={RelativeSource AncestorType={x:Type restaurantView:RestaurantDetailsViewModel}},Path=AddToBasketCommand}"
+                        CommandParameter="{Binding .}"
+                        BackgroundColor="{StaticResource AccentColor}"
+                        ImageSource="bskt_plus.png"/>
+                                        </VerticalStackLayout>
+                                    </Grid>
+
+                                </Border>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </On>
+        </OnPlatform>
     </Grid>
 </ContentPage>

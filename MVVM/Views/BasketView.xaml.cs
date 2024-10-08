@@ -8,6 +8,7 @@ using System.Windows.Input;
 
 namespace Restaurants.MVVM.Views;
 
+
 public partial class BasketView : ContentPage, INotifyPropertyChanged
 {
 	public ICommand CheckoutCommand { get; }
@@ -25,14 +26,16 @@ public partial class BasketView : ContentPage, INotifyPropertyChanged
 	{
 		InitializeComponent();
        
-         StaticResources.BasketItems.CollectionChanged += (s, e) => OnPropertyChanged(nameof(TotalPrice));
+        StaticResources.BasketItems.CollectionChanged += (s, e) => MainThread.BeginInvokeOnMainThread(() => OnPropertyChanged(nameof(TotalPrice)));
         CheckoutCommand = new Command(DisplayCheckoutSummary);
         DeleteFromBasketCommand = new Command<Foods>(DeleteFromBasket);
         BindingContext = this;
     }
- 
+
+
     public string TotalPrice
     {
+
         get
         {
             try
@@ -41,8 +44,12 @@ public partial class BasketView : ContentPage, INotifyPropertyChanged
                 {
                     return "0"; // Return 0 if BasketItems is empty or null
                 }
-                decimal total= BasketItems.Sum(item => decimal.Parse(item.price));
-                return total.ToString("C");
+                else
+                {
+                decimal total= BasketItems.Sum(item => decimal.Parse(item.price, CultureInfo.InvariantCulture));
+                return total.ToString("C", CultureInfo.CurrentCulture); //
+
+                }
             }
             catch (Exception ex)
             {
@@ -53,9 +60,12 @@ public partial class BasketView : ContentPage, INotifyPropertyChanged
     }
     private void OnBasketItemsChanged()
     {
-        
+
+        MainThread.BeginInvokeOnMainThread(() =>
+        {
             OnPropertyChanged(nameof(TotalPrice));
-       
+        });
+
     }
     async void DisplayCheckoutSummary()
     {

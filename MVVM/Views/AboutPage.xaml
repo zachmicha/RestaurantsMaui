@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Restaurants.MVVM.Views.AboutPage">
-    <VerticalStackLayout>
-        <Label 
+             x:Class="Restaurants.MVVM.Views.AboutPage"
+             BackgroundColor="{StaticResource BackgroundColor}">
+    <ScrollView>
+        
+    <VerticalStackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" Padding="15" Margin="10">
+        <Border StrokeThickness="0" BackgroundColor="Transparent" Padding="15" Margin="20" VerticalOptions="Center" HorizontalOptions="Center">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="3,3" Opacity="0.8" Radius="35"/>
+            </Border.Shadow>
+            <Image Grid.Row="0"
+Source="r2.jfif"
+HorizontalOptions="Center"
+VerticalOptions="Center"
+Aspect="AspectFit" />
+        </Border>
+        <Label Padding="0,25,0,0" Margin="2"
             Text="About this project:"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-        <Label Text="Font made by:"/>
-        <Label Text="Outward by Raoul Audouin. Distributed by velvetyne.fr."/>
+          FontSize="Title" />
+        <Label Padding="5" TextColor="White"
+         FontSize="Body"
+         LineHeight="1.4"
+         HorizontalTextAlignment="Start"
+         VerticalOptions="Start"         
+            Text="This is a test project, I was experimenting with MAUI, different controlls and calls to the API and getting and transforming JSON strings to C# objects.I also used MVVM pattern for my app.I wanted to use actual database, but phones don't support hosting of databases and that would either leave me with mostly paid hosting options or limiting ones or SQLite, but I already used SQLite and wanted to try something different. Instead of database I used https://mockapi.io/ on free version, which is also limiting but it generates data for you and generates APIs for you, which I never used before this project. Because data is generated you will see not that relevant images and names for foods and restaurants, immages change cause of how website is providing images on the backend,but it is by design."/>
+       
+
+            <Label Text="Fonts used:" Padding="0,25,0,0" FontSize="Large" />
+        <Label Text="Outward by Raoul Audouin. Distributed by velvetyne.fr." TextColor="{StaticResource AccentColor}" Padding="4"/>
+        <Label Text="Nevis-Bold." TextColor="{StaticResource AccentColor}" Padding="4"/>
+        
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

@@ -30,25 +30,25 @@
     <AppXManifest Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-04T05:44:14.568</Modified>
+      <Modified>2024-10-08T16:42:56.536</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-10-04T05:39:26.287</Modified>
+      <Modified>2024-10-08T16:37:06.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Restaurants.runtimeconfig.json">
       <PackagePath>Restaurants.runtimeconfig.json</PackagePath>
-      <Modified>2024-10-04T05:24:43.000</Modified>
+      <Modified>2024-10-08T15:48:00.994</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Restaurants.dll">
       <PackagePath>Restaurants.dll</PackagePath>
-      <Modified>2024-10-04T05:44:14.023</Modified>
+      <Modified>2024-10-08T16:42:55.326</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Restaurants.exe</PackagePath>
-      <Modified>2024-10-04T05:44:14.159</Modified>
+      <Modified>2024-10-08T16:42:55.490</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -404,7 +404,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\PersonalneProjekty\MyMauiApp\Restaurants\Restaurants\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Restaurants.deps.json">
       <PackagePath>Restaurants.deps.json</PackagePath>
-      <Modified>2024-10-04T05:39:26.018</Modified>
+      <Modified>2024-10-08T16:37:06.482</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\krwaw\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -421,6 +421,10 @@
     <AppxPackagedFile Include="C:\Users\krwaw\.nuget\packages\communitytoolkit.maui.core\9.1.0\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
       <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
       <Modified>2024-09-27T08:04:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krwaw\.nuget\packages\communitytoolkit.mvvm\8.2.0\lib\net6.0\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+      <Modified>2023-04-27T00:48:24.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\krwaw\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>

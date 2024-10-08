@@ -16,17 +16,18 @@
 Source="r2.jfif"
 HorizontalOptions="Center"
 VerticalOptions="Center"
-Aspect="AspectFit"
-SemanticProperties.Description="dot net bot in a race car number eight" />
+Aspect="AspectFit" />
                 </Border>
             </Grid>
-            <Label x:Name="lblControl" Text="Choose restaurant to dine in" FontSize="40" TextColor="{StaticResource PrimaryColor}" Padding="15,15"/>
+            <Label x:Name="lblControl" Text="Select a restaurant:" FontSize="Title" TextColor="{StaticResource White}" Padding="12" Margin="20" HorizontalTextAlignment="Start"
+                   VerticalTextAlignment="Center"/>
+
             <!--<Button Text="Retrieve" Command="{Binding RetrieveAllRestaurantsCommand}"/>-->
             <ActivityIndicator IsRunning="{Binding RetrieveAllRestaurantsCommand.IsRunning}"  
                                IsVisible="{Binding RetrieveAllRestaurantsCommand.IsRunning}"
                                VerticalOptions="Center"
                                HorizontalOptions="Center"/>
-            <CollectionView VerticalOptions="FillAndExpand" EmptyView="No data avilable"
+            <CollectionView VerticalOptions="FillAndExpand" EmptyView=""
                             ItemsSource="{Binding RestaurantsList}"
                             SelectionMode="Single" SelectionChanged="OnSelectionChanged">
             

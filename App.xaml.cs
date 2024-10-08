@@ -15,7 +15,7 @@ namespace Restaurants
         {
             var window = base.CreateWindow(activationState);
 
-            const int newWidth = 600;
+            const int newWidth = 1200;
             const int newHeight = 900;
 
             window.Width = newWidth;
